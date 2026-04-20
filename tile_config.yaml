@@ -1,0 +1,22 @@
+# =============================================================================
+# TILE INFORMATION
+# =============================================================================
+
+tile_name: ""       # Display name for this tile (e.g. "Adder Tile")
+tile_author: ""     # Your full name
+top_module: ""      # Must match your RTL filename exactly (e.g. adder_tile)
+shuttle: ""         # SemiCoLab shuttle identifier (leave empty if not assigned)
+
+description: |
+  # Describe what your tile does
+
+ports: |
+  # Map your ports to the SemiCoLab interface, one per line:
+  # csr_in[X]   - description
+  # data_reg_a  - description
+  # data_reg_b  - description
+  # data_reg_c  - description
+  # csr_out     - description
+
+usage_guide: |
+  # Explain how to use this tile
